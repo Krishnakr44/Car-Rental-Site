@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body {
+            background-image: url("./img/backimg1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+
+        }
+
+        .d1 {
+            margin-bottom: 500px;
+            padding: 50px;
+            display: block;
+            margin: auto;
+            border: 3px solid black;
+            color: rgb(221, 230, 227);
+            background-color: #2196f3c7;
+            height: 300px;
+            width: 50%;
+
+        }
+
+        .img {
+            height: 100px;
+            width: 150px;
+            border: 3px solid black;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .d2 {
+            align-items: center;
+        }
+
+        .b1 {
+
+            text-decoration: none;
+            background-color: #64b5f6;
+            color: rgb(20, 20, 20);
+            border: 2px solid #00000026;
+            font-size: 30px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-left: 46%;
+            margin-top: 28px;
+        }
+
+        .f1 {
+            padding: 7px;
+            margin: auto;
+            text-align: center;
+            /* border: 3px solid black; */
+        }
+
+        .sp {
+            font-size: 28px;
+            color: #0e0e1b;
+            font-style: oblique;
+            font-weight: 500;
+        }
+
+        .ss {
+            padding: 10px;
+            font-size: unset;
+            color: #0a0a0bf0;
+            font-weight: 600;
+            background-color: #2195f3ce;
+        }
+
+        .ad {
+
+            text-align: center;
+            color: #0e0e1b;
+            font-weight: 600;
+            font-style: italic;
+            background-color: #82b5df;
+            height: auto;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="ad">Admin Login</h1>
+    <div class="d1">
+
+        <form action="adminlogin.jsp" method="POST" class="f1">
+
+            <img src="login.png" class="img" alt="soryy">
+            <div class="d2">
+                <span class="sp">User Name:</span><input type="text" class="ss" name="name"><br><br>
+                <span class="sp">Password:</span><input type="password" class="ss" name="pass1"><br><br>
+                <input type="submit"
+                    style="cursor: pointer;border: 1px solid #000000a9;; padding: 15px;background-color:#64b5f6;"
+                    value="Login">
+
+            </div>
+        </form>
+    </div>
+
+
+    <a type="button" href="home.html" class="b1">Back</a>
+</body>
+
+</html>

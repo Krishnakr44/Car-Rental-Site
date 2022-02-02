@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<errror-page>
+<error-code>404</error-code>
+<location>/error404.jsp</location>
+</errror-page>
+
+<session-config>
+<session-timeout>20</session-timeout>
+</session-config>
+
+</web-app>
